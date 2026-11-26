@@ -1,13 +1,13 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0b1020&height=230&section=header&text=ENENRA007&fontSize=56&fontColor=67E8F9&animation=twinkling" alt="Banner oscuro de Enenra007" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0b1020&height=230&section=header&text=ENENRA&fontSize=64&fontColor=67E8F9&animation=twinkling" alt="Banner oscuro de Enenra" />
 </p>
 
-<h3 align="center"><samp>PROYECTOS &nbsp;·&nbsp; CERTIFICACIONES</samp></h3>
+<h3 align="center"><samp>PORTAFOLIO TÉCNICO &nbsp;·&nbsp; 03 PROYECTOS &nbsp;·&nbsp; 05 CERTIFICACIONES</samp></h3>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/NETWORKS-0B1020?style=for-the-badge&logo=cisco&logoColor=67E8F9" alt="Redes" />
-  <img src="https://img.shields.io/badge/INFRASTRUCTURE-0B1020?style=for-the-badge&logo=linux&logoColor=818CF8" alt="Infraestructura" />
-  <img src="https://img.shields.io/badge/DEVELOPMENT-0B1020?style=for-the-badge&logo=android&logoColor=22D3EE" alt="Desarrollo" />
+  <img src="https://img.shields.io/badge/REDES-0B1020?style=for-the-badge&logo=cisco&logoColor=67E8F9" alt="Redes" />
+  <img src="https://img.shields.io/badge/SISTEMAS-0B1020?style=for-the-badge&logo=linux&logoColor=818CF8" alt="Sistemas" />
+  <img src="https://img.shields.io/badge/DESARROLLO-0B1020?style=for-the-badge&logo=android&logoColor=22D3EE" alt="Desarrollo" />
 </p>
 
 <p align="center">
@@ -25,7 +25,7 @@
         <img src="https://img.shields.io/badge/VLSM-0B1020?style=flat-square&color=0B1020" alt="VLSM" />
         <img src="https://img.shields.io/badge/OSPF_%2F_RIP-0B1020?style=flat-square&color=0B1020" alt="OSPF y RIP" />
       </p>
-      <p>Diseño de topologías corporativas, cálculo de subredes y configuración de routers y switches Cisco. Enrutamiento dinámico y conectividad de extremo a extremo.</p>
+      <p>Diseño de topologías corporativas, cálculo de subredes VLSM y configuración de routers y switches Cisco. Implementación de OSPF y RIP para lograr conectividad de extremo a extremo.</p>
     </td>
   </tr>
   <tr>
@@ -36,7 +36,7 @@
         <img src="https://img.shields.io/badge/DOCKER-0B1020?style=flat-square&logo=docker&logoColor=67E8F9" alt="Docker" />
         <img src="https://img.shields.io/badge/APACHE_%2B_MYSQL-0B1020?style=flat-square&color=0B1020" alt="Apache y MySQL" />
       </p>
-      <p>Despliegue de servicios web y bases de datos relacionales en contenedores Docker, con administración de usuarios, permisos y comunicación entre servicios.</p>
+      <p>Despliegue de Apache y MySQL en contenedores Docker sobre Ubuntu Server, con gestión de usuarios, permisos y comunicación interna entre servicios.</p>
     </td>
   </tr>
   <tr>
@@ -47,7 +47,7 @@
         <img src="https://img.shields.io/badge/JAVA-0B1020?style=flat-square&logo=openjdk&logoColor=818CF8" alt="Java" />
         <img src="https://img.shields.io/badge/FIREBASE-0B1020?style=flat-square&logo=firebase&logoColor=67E8F9" alt="Firebase" />
       </p>
-      <p>Co-diseño y desarrollo de una aplicación para localizar centros de acopio en Santiago, con autenticación de usuarios y sincronización de datos en Firebase.</p>
+      <p>Co-diseño y desarrollo de una app para localizar centros de acopio en Santiago. Incluye autenticación de usuarios y sincronización de datos en Firebase.</p>
     </td>
   </tr>
 </table>
@@ -73,9 +73,9 @@
 </table>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_data_capsul.svg" alt="Separador animado" />
+  <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_circuit_pulse_bar.svg" alt="Separador animado" />
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0b1020&height=100&section=footer" alt="Pie oscuro" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0b1020&height=100&section=footer" alt="Pie oscuro de Enenra" />
 </p>
