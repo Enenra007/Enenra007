@@ -1,34 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Enenra</title>
-  <desc id="desc">Banner oscuro con acentos cian y violeta para el portafolio de proyectos y certificaciones de Enenra.</desc>
+  <title id="title">Enenra — demonio de humo</title>
+  <desc id="desc">Ilustración vectorial de Enenra, un demonio japonés hecho de humo, junto al nombre Enenra y su portafolio técnico.</desc>
   <defs>
-    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#050816" />
-      <stop offset="55%" stop-color="#0b1120" />
-      <stop offset="100%" stop-color="#11152e" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#22d3ee" />
-      <stop offset="52%" stop-color="#818cf8" />
-      <stop offset="100%" stop-color="#c084fc" />
-    </linearGradient>
-    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
-      <path d="M36 0H0V36" fill="none" stroke="#155e75" stroke-width="1" opacity="0.22" />
-    </pattern>
-    <filter id="glow" x="-30%" y="-60%" width="160%" height="220%">
-      <feGaussianBlur stdDeviation="5" result="blur" />
-      <feMerge><feMergeNode in="blur" /><feMergeNode in="SourceGraphic" /></feMerge>
-    </filter>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#050816"/><stop offset="55%" stop-color="#0b1120"/><stop offset="100%" stop-color="#11152e"/></linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#22d3ee"/><stop offset="52%" stop-color="#818cf8"/><stop offset="100%" stop-color="#c084fc"/></linearGradient>
+    <linearGradient id="smoke" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#22d3ee" stop-opacity=".82"/><stop offset="48%" stop-color="#5368ba" stop-opacity=".70"/><stop offset="100%" stop-color="#c084fc" stop-opacity=".84"/></linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#182548"/><stop offset="100%" stop-color="#090d1b"/></linearGradient>
+    <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#155e75" stroke-width="1" opacity=".22"/></pattern>
+    <filter id="glow" x="-40%" y="-60%" width="180%" height="220%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="mist" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="9"/></filter>
   </defs>
-  <rect width="1200" height="300" rx="24" fill="url(#background)" />
-  <rect width="1200" height="300" rx="24" fill="url(#grid)" />
-  <path d="M0 238H250L294 194H410M1200 238H950L906 194H790" fill="none" stroke="#164e63" stroke-width="2" opacity="0.7" />
-  <path d="M0 254H1200" fill="none" stroke="url(#accent)" stroke-width="2" opacity="0.72" />
-  <rect x="26" y="24" width="1148" height="252" rx="20" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity="0.48" />
-  <circle cx="294" cy="194" r="4" fill="#22d3ee" />
-  <circle cx="906" cy="194" r="4" fill="#c084fc" />
-  <text x="600" y="144" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="700" letter-spacing="10" fill="#67e8f9" filter="url(#glow)">ENENRA</text>
-  <text x="600" y="198" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="17" font-weight="600" letter-spacing="5" fill="#a5b4fc">PROYECTOS · CERTIFICACIONES</text>
-  <text x="64" y="58" font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#22d3ee" opacity="0.7">PORTFOLIO // 01</text>
-  <text x="1136" y="58" text-anchor="end" font-family="Consolas, monospace" font-size="12" letter-spacing="2" fill="#c084fc" opacity="0.7">NETWORK · SYSTEMS</text>
+  <rect width="1200" height="300" rx="24" fill="url(#background)"/>
+  <rect width="1200" height="300" rx="24" fill="url(#grid)"/>
+  <rect x="26" y="24" width="1148" height="252" rx="20" fill="none" stroke="url(#accent)" stroke-width="1.5" opacity=".48"/>
+  <path d="M0 254H1200" fill="none" stroke="url(#accent)" stroke-width="2" opacity=".62"/>
+  <g fill="none" stroke="url(#smoke)" stroke-linecap="round" filter="url(#mist)" opacity=".58">
+    <path d="M850 230C793 206 831 181 865 186C819 157 836 126 875 125C841 96 870 66 899 91" stroke-width="19"/>
+    <path d="M960 226C1025 207 985 177 957 182C1008 151 992 118 958 121C991 91 966 66 940 91" stroke-width="20"/>
+    <path d="M889 251C854 235 847 215 869 201M963 248C1001 231 1010 209 986 194" stroke-width="15"/>
+  </g>
+  <g fill="none" stroke="url(#smoke)" stroke-linecap="round" opacity=".88">
+    <path d="M867 204C829 192 820 174 842 160C858 150 874 154 882 164" stroke-width="5"/>
+    <path d="M973 202C1010 185 1006 163 987 151C974 143 960 148 952 159" stroke-width="5"/>
+    <path d="M882 225C852 219 841 202 853 190M962 224C994 218 1003 199 990 188" stroke-width="4"/>
+  </g>
+  <path d="M877 220C868 205 879 193 870 178C856 155 871 137 888 126C884 107 894 91 907 82C906 101 919 108 925 123C931 105 945 95 947 80C963 92 968 110 959 128C980 141 987 161 972 179C965 195 979 209 987 225C964 221 951 210 944 198C930 220 905 230 877 220Z" fill="url(#smoke)" opacity=".9"/>
+  <path d="M891 164C890 145 902 132 925 132C948 132 961 146 959 165L952 190C947 203 937 210 925 210C912 210 902 203 897 190Z" fill="url(#face)" stroke="#7ddff0" stroke-opacity=".72" stroke-width="2"/>
+  <path d="M899 169L916 163L910 175L899 178ZM951 169L934 163L940 175L951 178Z" fill="#67e8f9" filter="url(#glow)"/>
+  <path d="M914 190Q925 197 936 190" fill="none" stroke="#c084fc" stroke-width="3" stroke-linecap="round" opacity=".9"/>
+  <path d="M877 220C867 235 851 238 839 232M986 224C998 237 1011 236 1022 229M905 224C899 241 889 247 877 249M948 222C955 239 966 246 980 248" fill="none" stroke="url(#smoke)" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+  <circle cx="925" cy="220" r="3" fill="#22d3ee" opacity=".85"/>
+  <text x="430" y="143" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="74" font-weight="700" letter-spacing="9" fill="#67e8f9" filter="url(#glow)">ENENRA</text>
+  <text x="430" y="190" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="600" letter-spacing="4" fill="#a5b4fc">PROYECTOS · CERTIFICACIONES</text>
+  <text x="64" y="58" font-family="Consolas,monospace" font-size="12" letter-spacing="2" fill="#22d3ee" opacity=".7">PORTAFOLIO // 01</text>
+  <text x="1136" y="58" text-anchor="end" font-family="Consolas,monospace" font-size="12" letter-spacing="2" fill="#c084fc" opacity=".7">REDES · SISTEMAS</text>
 </svg>
