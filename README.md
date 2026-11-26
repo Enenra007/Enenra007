@@ -38,6 +38,26 @@
   <img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/unique_effects/divider_cyber_cycle_mirrored.svg" alt="Separador animado" />
 </p>
 
+<p align="center"><img src="https://raw.githubusercontent.com/HiradEmami/readme-ux-kit/master/assets/dividers/animated/divider_circuit_pulse_bar.svg" alt="Separador animado" /></p>
+
+<h2 align="center">🛠️ &nbsp; Technologies</h2>
+
+<table align="center" border="1" cellspacing="0" cellpadding="14">
+  <tr>
+    <td align="center"><img src="https://img.shields.io/badge/Python-0B1020?style=for-the-badge&logo=python&logoColor=FFD43B" alt="Python" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Cisco-0B1020?style=for-the-badge&logo=cisco&logoColor=67E8F9" alt="Cisco" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Linux-0B1020?style=for-the-badge&logo=linux&logoColor=FFFFFF" alt="Linux" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Docker-0B1020?style=for-the-badge&logo=docker&logoColor=2496ED" alt="Docker" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Apache-0B1020?style=for-the-badge&logo=apache&logoColor=D22128" alt="Apache" /></td>
+  </tr><tr>
+    <td align="center"><img src="https://img.shields.io/badge/MySQL-0B1020?style=for-the-badge&logo=mysql&logoColor=4479A1" alt="MySQL" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Java-0B1020?style=for-the-badge&logo=openjdk&logoColor=ED8B00" alt="Java" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Android-0B1020?style=for-the-badge&logo=android&logoColor=3DDC84" alt="Android Studio" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Firebase-0B1020?style=for-the-badge&logo=firebase&logoColor=FFCA28" alt="Firebase" /></td>
+    <td align="center"><img src="https://img.shields.io/badge/Packet_Tracer-0B1020?style=for-the-badge&logo=cisco&logoColor=67E8F9" alt="Cisco Packet Tracer" /></td>
+  </tr>
+</table>
+
 <h2 align="center">🏅 &nbsp; Certificaciones y formación</h2>
 
 <table width="100%" border="1" cellspacing="0" cellpadding="12">
